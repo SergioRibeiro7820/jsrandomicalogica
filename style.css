@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Palette+Mosaic&family=Secular+One&display=swap');
+
+html {
+  background-image: linear-gradient(360deg, #004C72 ,  #0066CC);
+  font-family: 'Secular One', cursive;
+  font-weight: normal;
+}
+
+body {
+  min-height: 640px;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  font-weight: normal;
+  color: #E9E9E9;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  font-family: 'Secular One', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #E9E9E9;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  font-family: 'Secular One', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #E9E9E9;
+  margin-top: 16px;
+}
+
+.page-logo {
+  width: 250px;
+}
+
+.git-sergio{
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.git-sergio:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.resultado {
+  font-family: 'Secular One', sans-serif;
+  font-weight: normal;
+  color: #E9E9E9;
+  text-align: center;
+  margin-top: 16px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 5px;
+}
+
+input {
+  font-family: 'Secular One', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 4px;
+  padding: 4px;
+  border-radius: 5px;
+  box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
+}
+
+button {
+  font-family: 'Secular One', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 12px;
+  padding: 8px 16px;
+  border: 2px solid black;
+  border-radius: 16px;
+  background: #ffffff; /* white */
+}
+
+.button:hover {
+  background-color: #13CB62; /* Green */
+  color: #ffffff; /* white */
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
